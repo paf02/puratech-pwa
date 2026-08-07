@@ -1,6 +1,7 @@
 import { Outlet, Link } from 'react-router-dom';
 import { ShoppingCart, Home, Package, Grid3x3 } from 'lucide-react';
 import { useCart } from '../contexts/CartContext';
+import InstallPrompt from './InstallPrompt';
 
 export default function Layout() {
   const { getCartCount } = useCart();
@@ -75,6 +76,9 @@ export default function Layout() {
 
       {/* Bottom padding for mobile nav */}
       <div className="h-16 md:hidden"></div>
+
+      {/* PWA Install Prompt */}
+      <InstallPrompt />
     </div>
   );
 }

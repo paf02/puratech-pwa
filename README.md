@@ -6,6 +6,23 @@ Progressive Web App (PWA) for customer-facing e-commerce experience for PuraTech
 
 **Production:** https://puratech-pwa.pages.dev
 
+## 📱 Install on Your Phone
+
+Install PuraTech Store as a native app on your mobile device:
+
+### iPhone / iPad
+1. Open **Safari** and visit https://puratech-pwa.pages.dev
+2. Tap the **Share button** (📤)
+3. Scroll and tap **"Add to Home Screen"**
+4. Tap **"Add"**
+
+### Android
+1. Open **Chrome** and visit https://puratech-pwa.pages.dev
+2. Tap **"Install"** when prompted
+3. Or tap menu (⋮) → **"Add to Home screen"**
+
+**For detailed instructions:** See [INSTALL_MOBILE.md](./INSTALL_MOBILE.md)
+
 ## 🛠️ Tech Stack
 
 - **Framework:** React 18 + Vite
