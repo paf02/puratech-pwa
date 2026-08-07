@@ -47,6 +47,18 @@ class ApiService {
   searchProducts(query) {
     return this.request(`/productos?search=${encodeURIComponent(query)}`);
   }
+
+  // Sales
+  createSale(saleData) {
+    return this.request('/ventas', {
+      method: 'POST',
+      body: JSON.stringify(saleData),
+    });
+  }
+
+  getSale(id) {
+    return this.request(`/ventas/${id}`);
+  }
 }
 
 const api = new ApiService();
